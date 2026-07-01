@@ -34,7 +34,7 @@ print("umur     :", umur)
 print("kelas    :", kelas)
 print("jurusan  :", jurusan)
 print("nilai    :", nilai)
-print("status    :", status)
+print("status   :", status)
 
 # dengan f ---------------------------
 print(f"nama    : {nama}")
