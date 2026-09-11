@@ -16,14 +16,27 @@
 # print(f"Kuadrat dari {angka} adalah: {hasil}")
 
 # -------- latihan 4 ---------
-jumlah= 49
-rasio= 0.4
+# jumlah= 49
+# rasio= 0.4
 
-usia_budi= jumlah / (1 + rasio)
-usia_andi= jumlah - usia_budi
+# usia_budi= jumlah / (1 + rasio)
+# usia_andi= jumlah - usia_budi
 
-usiaBudi= int(usia_budi + 2)
-usiaAndi= int(usia_andi + 2)
+# usiaBudi= int(usia_budi + 2)
+# usiaAndi= int(usia_andi + 2)
 
-print(f"usia andi sekarang: {usiaAndi}")
-print(f"usia budi sekarang: {usiaBudi}")
+# print(f"usia andi sekarang: {usiaAndi}")
+# print(f"usia budi sekarang: {usiaBudi}")
+
+# -------- latihan 5 ---------
+apel = int(input("Masukan jumlah apel: "))
+jeruk = int(input("Masukan jumlah jeruk: "))
+anggur = int(input("Masukan jumlah anggur: "))
+
+hargaApel = apel * 10000
+hargaJeruk = jeruk * 15000
+hargaAnggur = anggur * 20000
+
+total = hargaApel + hargaJeruk + hargaAnggur
+
+print(f"total belanja yang dibeli adalah {total}")
