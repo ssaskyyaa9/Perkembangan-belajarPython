@@ -29,14 +29,30 @@
 # print(f"usia budi sekarang: {usiaBudi}")
 
 # -------- latihan 5 ---------
-apel = int(input("Masukan jumlah apel: "))
-jeruk = int(input("Masukan jumlah jeruk: "))
-anggur = int(input("Masukan jumlah anggur: "))
+# apel = int(input("Masukan jumlah apel: "))
+# jeruk = int(input("Masukan jumlah jeruk: "))
+# anggur = int(input("Masukan jumlah anggur: "))
 
-hargaApel = apel * 10000
-hargaJeruk = jeruk * 15000
-hargaAnggur = anggur * 20000
+# hargaApel = apel * 10000
+# hargaJeruk = jeruk * 15000
+# hargaAnggur = anggur * 20000
 
-total = hargaApel + hargaJeruk + hargaAnggur
+# total = hargaApel + hargaJeruk + hargaAnggur
 
-print(f"total belanja yang dibeli adalah {total}")
+# print(f"total belanja yang dibeli adalah {total}")
+
+# -------- latihan 6 ---------
+jarak = 120
+kecepatan_a = 60
+kecepatan_b = 40
+jam_mulai = 9
+
+kecepatan_total = kecepatan_a + kecepatan_b
+waktu = jarak / kecepatan_total
+
+jam = int(waktu)
+menit = int((waktu - jam) * 60)
+
+jam_bertemu = jam_mulai + jam
+
+print(f"A dan B bertabrakan pada pukul {jam_bertemu}.{menit} WIB ")
